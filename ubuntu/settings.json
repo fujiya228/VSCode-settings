@@ -1,8 +1,11 @@
 {
+    //ファイルをセーブするごとにコードを整えてくれる
+    "editor.formatOnSave": true,
+    //行を書き終えるごとに行のコードを整えてくれる
     "editor.formatOnType": true,
-    // "editor.formatOnSave": true,
     //ペーストしたときにコードを整えてくれる
     "editor.formatOnPaste": true,
+
     //予測をどのときに出すのか
     "editor.quickSuggestions": {
         "other": true,
@@ -21,7 +24,7 @@
     "[ruby]": {
         "editor.tabSize": 2
     },
-    "[erb]": {
+    "[html.erb]": {
         "editor.tabSize": 2
     },
     "[vue]": {
@@ -37,13 +40,58 @@
         "editor.tabSize": 2
     },
     "[css]": {
-        "editor.tabSize": 2,
+        "editor.tabSize": 2
     },
     "breadcrumbs.enabled": false,
     "editor.renderWhitespace": "all",
-    "editor.renderControlCharacters": false,
-    "diffEditor.ignoreTrimWhitespace": false,
-    "editor.tabSize": 2,
-    "vetur.completion.scaffoldSnippetSources": {},
-    // prettierによって色々勝手に整えてくれるけど、気にいらんのがあったら直していきたい
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.Down",
+            "sequence": [
+                "cursorDown"
+            ]
+        },
+        {
+            "command": "multiCommand.Up",
+            "sequence": [
+                "cursorUp"
+            ]
+        },
+        {
+            "command": "multiCommand.Left",
+            "sequence": [
+                "cursorLeft"
+            ]
+        },
+        {
+            "command": "multiCommand.Right",
+            "sequence": [
+                "cursorRight"
+            ]
+        },
+        {
+            "command": "multiCommand.DownSelect",
+            "sequence": [
+                "cursorDownSelect"
+            ]
+        },
+        {
+            "command": "multiCommand.UpSelect",
+            "sequence": [
+                "cursorUpSelect"
+            ]
+        },
+        {
+            "command": "multiCommand.LeftSelect",
+            "sequence": [
+                "cursorLeftSelect"
+            ]
+        },
+        {
+            "command": "multiCommand.RightSelect",
+            "sequence": [
+                "cursorRightSelect"
+            ]
+        }
+    ]
 }

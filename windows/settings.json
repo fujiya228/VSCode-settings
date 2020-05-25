@@ -19,7 +19,7 @@
         }
     ],
     //ファイルをセーブするごとにコードを整えてくれる
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     //行を書き終えるごとに行のコードを整えてくれる
     "editor.formatOnType": true,
     //ペーストしたときにコードを整えてくれる
@@ -49,11 +49,16 @@
     "[vue]": {
         "editor.tabSize": 2
     },
+    "[js]": {
+        "editor.tabSize": 2
+    },
+    "[spec.js]": {
+        "editor.tabSize": 2
+    },
     "[scss]": {
         "editor.tabSize": 2
     },
-    "[html]": {
-        "editor.suggest.insertMode": "replace",
+    "[css]": {
         "editor.tabSize": 2
     },
     "editor.renderWhitespace": "all",
