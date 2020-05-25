@@ -1,10 +1,15 @@
 Docker
 Draw.io integration
+EJS language support @
+ejs Snippets @
 endwise
 ESLint
 Japavese Language Pack for ...
+Live Server @
 Markdown Preview Enhanced
 Mithril Emmet
+multi-command
+Prettier - Code formatter @
 Ruby
 Shell launcher
 stylelint
