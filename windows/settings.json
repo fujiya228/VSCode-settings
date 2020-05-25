@@ -1,126 +1,106 @@
 {
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
-    "shellLauncher.shells.windows": [
-        {
-            "shell": "C:\\Windows\\System32\\cmd.exe",
-            "label": "cmd"
-        },
-        {
-            "shell": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
-            "label": "PowerShell"
-        },
-        {
-            "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
-            "label": "Git bash"
-        },
-        {
-            "shell": "C:\\WINDOWS\\System32\\wsl.exe",
-            "label": "WSL Bash"
-        }
-    ],
-    //ファイルをセーブするごとにコードを整えてくれる
-    "editor.formatOnSave": true,
-    //行を書き終えるごとに行のコードを整えてくれる
-    "editor.formatOnType": true,
-    //ペーストしたときにコードを整えてくれる
-    "editor.formatOnPaste": true,
-    //予測をどのときに出すのか
-    "editor.quickSuggestions": {
-        "other": true,
-        "comments": true,
-        "strings": true
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+  "shellLauncher.shells.windows": [
+    {
+      "shell": "C:\\Windows\\System32\\cmd.exe",
+      "label": "cmd"
     },
-    "C_Cpp.updateChannel": "Insiders",
-    "window.zoomLevel": 0,
-    "explorer.confirmDragAndDrop": false,
-    "editor.suggestSelection": "first",
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-    "editor.minimap.enabled": false,
-    "workbench.activityBar.visible": true,
-    "workbench.startupEditor": "none",
-    "workbench.editor.showTabs": true,
-    "[ruby]": {
-        "editor.tabSize": 2
+    {
+      "shell": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "label": "PowerShell"
     },
-    "[html.erb]": {
-        "editor.tabSize": 2
+    {
+      "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
+      "label": "Git bash"
     },
-    "[vue]": {
-        "editor.tabSize": 2
+    {
+      "shell": "C:\\WINDOWS\\System32\\wsl.exe",
+      "label": "WSL Bash"
+    }
+  ],
+  //ファイルをセーブするごとにコードを整えてくれる
+  "editor.formatOnSave": true,
+  //行を書き終えるごとに行のコードを整えてくれる
+  "editor.formatOnType": true,
+  //ペーストしたときにコードを整えてくれる
+  "editor.formatOnPaste": true,
+  //予測をどのときに出すのか
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "C_Cpp.updateChannel": "Insiders",
+  "window.zoomLevel": 0,
+  "explorer.confirmDragAndDrop": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.minimap.enabled": false,
+  "workbench.activityBar.visible": true,
+  "workbench.startupEditor": "none",
+  "workbench.editor.showTabs": true,
+  "[ruby]": {
+    "editor.tabSize": 2
+  },
+  "[html.erb]": {
+    "editor.tabSize": 2
+  },
+  "[vue]": {
+    "editor.tabSize": 2
+  },
+  "[js]": {
+    "editor.tabSize": 2
+  },
+  "[spec.js]": {
+    "editor.tabSize": 2
+  },
+  "[scss]": {
+    "editor.tabSize": 2
+  },
+  "[css]": {
+    "editor.tabSize": 2
+  },
+  "editor.renderWhitespace": "all",
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.Down",
+      "sequence": ["cursorDown"]
     },
-    "[js]": {
-        "editor.tabSize": 2
+    {
+      "command": "multiCommand.Up",
+      "sequence": ["cursorUp"]
     },
-    "[spec.js]": {
-        "editor.tabSize": 2
+    {
+      "command": "multiCommand.Left",
+      "sequence": ["cursorLeft"]
     },
-    "[scss]": {
-        "editor.tabSize": 2
+    {
+      "command": "multiCommand.Right",
+      "sequence": ["cursorRight"]
     },
-    "[css]": {
-        "editor.tabSize": 2
+    {
+      "command": "multiCommand.DownSelect",
+      "sequence": ["cursorDownSelect"]
     },
-    "editor.renderWhitespace": "all",
-    "multiCommand.commands": [
-        {
-            "command": "multiCommand.Down",
-            "sequence": [
-                "cursorDown"
-            ]
-        },
-        {
-            "command": "multiCommand.Up",
-            "sequence": [
-                "cursorUp"
-            ]
-        },
-        {
-            "command": "multiCommand.Left",
-            "sequence": [
-                "cursorLeft"
-            ]
-        },
-        {
-            "command": "multiCommand.Right",
-            "sequence": [
-                "cursorRight"
-            ]
-        },
-        {
-            "command": "multiCommand.DownSelect",
-            "sequence": [
-                "cursorDownSelect"
-            ]
-        },
-        {
-            "command": "multiCommand.UpSelect",
-            "sequence": [
-                "cursorUpSelect"
-            ]
-        },
-        {
-            "command": "multiCommand.LeftSelect",
-            "sequence": [
-                "cursorLeftSelect"
-            ]
-        },
-        {
-            "command": "multiCommand.RightSelect",
-            "sequence": [
-                "cursorRightSelect"
-            ]
-        },
-        {
-            "command": "multiCommand.deleteLeft",
-            "sequence": [
-                "deleteLeft"
-            ]
-        },
-        {
-            "command": "multiCommand.deleteRight",
-            "sequence": [
-                "deleteRight"
-            ]
-        }
-    ]
+    {
+      "command": "multiCommand.UpSelect",
+      "sequence": ["cursorUpSelect"]
+    },
+    {
+      "command": "multiCommand.LeftSelect",
+      "sequence": ["cursorLeftSelect"]
+    },
+    {
+      "command": "multiCommand.RightSelect",
+      "sequence": ["cursorRightSelect"]
+    },
+    {
+      "command": "multiCommand.deleteLeft",
+      "sequence": ["deleteLeft"]
+    },
+    {
+      "command": "multiCommand.deleteRight",
+      "sequence": ["deleteRight"]
+    }
+  ]
 }

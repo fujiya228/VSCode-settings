@@ -1,135 +1,151 @@
 // 既定値を上書きするには、このファイル内にキー バインドを挿入します
 [
-    {
-        "key": "ctrl+shift+oem_3",
-        "command": "workbench.action.terminal.new"
-    },
-    {
-        "key": "ctrl+shift+alt+oem_3",
-        "command": "shellLauncher.launch"
-    },
-    {
-        "key": "ctrl+g",
-        "command": "workbench.action.nextEditorInGroup"
-    },
-    {
-        "key": "alt+k",
-        "command": "editor.action.moveLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+down",
-        "command": "-editor.action.moveLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+i",
-        "command": "editor.action.moveLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+up",
-        "command": "-editor.action.moveLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+oem_comma",
-        "command": "editor.unfold",
-        "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "ctrl+shift+oem_6",
-        "command": "-editor.unfold",
-        "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "ctrl+oem_period ctrl+oem_period",
-        "command": "editor.unfoldRecursively",
-        "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "ctrl+k ctrl+oem_6",
-        "command": "-editor.unfoldRecursively",
-        "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "ctrl+oem_period ctrl+oem_2",
-        "command": "editor.fold",
-        "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "ctrl+shift+oem_4",
-        "command": "-editor.fold",
-        "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "ctrl+oem_period ctrl+oem_comma",
-        "command": "editor.foldAll",
-        "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "ctrl+k ctrl+0",
-        "command": "-editor.foldAll",
-        "when": "editorTextFocus && foldingEnabled"
-    },
-    {
-        "key": "ctrl+u",
-        "command": "workbench.action.focusNextGroup"
-    },
-    {
-        "key": "ctrl+shift+alt+enter",
-        "command": "workbench.action.terminal.focusNext"
-    },
-    {
-        "key": "ctrl+m",
-        "command": "cursorLineStart"
-    },
-    {
-        "key": "ctrl+oem_plus",
-        "command": "cursorLineEnd"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "multiCommand.Down"
-    },
-    {
-        "key": "ctrl+j",
-        "command": "multiCommand.Left"
-    },
-    {
-        "key": "ctrl+l",
-        "command": "multiCommand.Right"
-    },
-    {
-        "key": "ctrl+i",
-        "command": "multiCommand.Up"
-    },
-    {
-        "key": "ctrl+shift+k",
-        "command": "multiCommand.DownSelect"
-    },
-    {
-        "key": "ctrl+shift+j",
-        "command": "multiCommand.LeftSelect"
-    },
-    {
-        "key": "ctrl+shift+l",
-        "command": "multiCommand.RightSelect"
-    },
-    {
-        "key": "ctrl+shift+i",
-        "command": "multiCommand.UpSelect"
-    },
-    {
-        "key": "ctrl+shift+oem_plus",
-        "command": "cursorLineEndSelect"
-    },
-    {
-        "key": "ctrl+shift+m",
-        "command": "-workbench.actions.view.problems"
-    },
-    {
-        "key": "ctrl+shift+m",
-        "command": "cursorLineStartSelect"
-    }
+  {
+    "key": "ctrl+shift+oem_3",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "ctrl+shift+alt+oem_3",
+    "command": "shellLauncher.launch"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "workbench.action.nextEditorInGroup"
+  },
+  {
+    "key": "alt+k",
+    "command": "editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+down",
+    "command": "-editor.action.moveLinesDownAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+i",
+    "command": "editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+up",
+    "command": "-editor.action.moveLinesUpAction",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+oem_comma",
+    "command": "editor.unfold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+shift+oem_6",
+    "command": "-editor.unfold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+oem_period ctrl+oem_period",
+    "command": "editor.unfoldRecursively",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+k ctrl+oem_6",
+    "command": "-editor.unfoldRecursively",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+oem_period ctrl+oem_2",
+    "command": "editor.fold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+shift+oem_4",
+    "command": "-editor.fold",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+oem_period ctrl+oem_comma",
+    "command": "editor.foldAll",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+k ctrl+0",
+    "command": "-editor.foldAll",
+    "when": "editorTextFocus && foldingEnabled"
+  },
+  {
+    "key": "ctrl+u",
+    "command": "workbench.action.focusNextGroup"
+  },
+  {
+    "key": "ctrl+shift+alt+enter",
+    "command": "workbench.action.terminal.focusNext"
+  },
+  {
+    "key": "ctrl+m",
+    "command": "cursorLineStart"
+  },
+  {
+    "key": "ctrl+oem_plus",
+    "command": "cursorLineEnd"
+  },
+  {
+    "key": "ctrl+k",
+    "command": "multiCommand.Down"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "multiCommand.Left"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "multiCommand.Right"
+  },
+  {
+    "key": "ctrl+i",
+    "command": "multiCommand.Up"
+  },
+  {
+    "key": "ctrl+shift+k",
+    "command": "multiCommand.DownSelect"
+  },
+  {
+    "key": "ctrl+shift+j",
+    "command": "multiCommand.LeftSelect"
+  },
+  {
+    "key": "ctrl+shift+l",
+    "command": "multiCommand.RightSelect"
+  },
+  {
+    "key": "ctrl+shift+i",
+    "command": "multiCommand.UpSelect"
+  },
+  {
+    "key": "ctrl+shift+oem_plus",
+    "command": "cursorLineEndSelect"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "-workbench.actions.view.problems"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "cursorLineStartSelect"
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "multiCommand.deleteLeft"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "-workbench.action.gotoSymbol"
+  },
+  {
+    "key": "ctrl+shift+o",
+    "command": "multiCommand.deleteRight"
+  },
+  {
+    "key": "ctrl+shift+u",
+    "command": "-workbench.action.output.toggleOutput"
+  }
 ]
