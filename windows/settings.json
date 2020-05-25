@@ -21,25 +21,25 @@
     //ファイルをセーブするごとにコードを整えてくれる
     "editor.formatOnSave": false,
     //行を書き終えるごとに行のコードを整えてくれる
-        "editor.formatOnType": true,
+    "editor.formatOnType": true,
     //ペーストしたときにコードを整えてくれる
-        "editor.formatOnPaste": true,
+    "editor.formatOnPaste": true,
 
     //予測をどのときに出すのか
-        "editor.quickSuggestions": {
-            "other": true,
-            "comments": true,
-            "strings": true
-        },
-        "C_Cpp.updateChannel": "Insiders",
-        "window.zoomLevel": 0,
-        "explorer.confirmDragAndDrop": false,
-        "editor.suggestSelection": "first",
-        "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-        "editor.minimap.enabled": false,
-        "workbench.activityBar.visible": true,
-        "workbench.startupEditor": "none",
-        "workbench.editor.showTabs": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": true,
+    "workbench.startupEditor": "none",
+    "workbench.editor.showTabs": true,
     "[ruby]": {
         "editor.tabSize": 2
     }
