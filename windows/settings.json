@@ -24,7 +24,6 @@
     "editor.formatOnType": true,
     //ペーストしたときにコードを整えてくれる
     "editor.formatOnPaste": true,
-
     //予測をどのときに出すのか
     "editor.quickSuggestions": {
         "other": true,
@@ -109,6 +108,18 @@
             "command": "multiCommand.RightSelect",
             "sequence": [
                 "cursorRightSelect"
+            ]
+        },
+        {
+            "command": "multiCommand.deleteLeft",
+            "sequence": [
+                "deleteLeft"
+            ]
+        },
+        {
+            "command": "multiCommand.deleteRight",
+            "sequence": [
+                "deleteRight"
             ]
         }
     ]
