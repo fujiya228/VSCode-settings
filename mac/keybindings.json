@@ -1,0 +1,201 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+    {
+        "key": "shift+alt+cmd+[BracketLeft]",
+        "command": "workbench.action.terminal.new"
+    },
+    {
+        "key": "cmd+g",
+        "command": "workbench.action.nextEditorInGroup"
+    },
+    {
+        "key": "alt+k",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+down",
+        "command": "-editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+i",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+up",
+        "command": "-editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+,",
+        "command": "editor.unfold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+oem_6",
+        "command": "-editor.unfold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "cmd+. cmd+.",
+        "command": "editor.unfoldRecursively",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+oem_6",
+        "command": "-editor.unfoldRecursively",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "cmd+. cmd+/",
+        "command": "editor.fold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+oem_4",
+        "command": "-editor.fold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "cmd+. cmd+,",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+k ctrl+0",
+        "command": "-editor.foldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "cmd+u",
+        "command": "workbench.action.focusNextGroup"
+    },
+    {
+        "key": "shift+alt+cmd+enter",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "cmd+v",
+        "command": "workbench.action.terminal.paste",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+v",
+        "command": "-workbench.action.terminal.paste",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+[BracketLeft]",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+shift+[BracketLeft]",
+        "command": "-workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "cmd+c",
+        "command": "workbench.action.terminal.copySelection",
+        "when": "terminalFocus && terminalTextSelected"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.copySelection",
+        "when": "terminalFocus && terminalTextSelected"
+    },
+    {
+        "key": "cmd+[Semicolon]",
+        "command": "cursorLineEnd"
+    },
+    {
+        "key": "shift+cmd+[Semicolon]",
+        "command": "cursorLineEndSelect"
+    },
+    {
+        "key": "cmd+m",
+        "command": "cursorLineStart"
+    },
+    {
+        "key": "shift+cmd+m",
+        "command": "cursorLineStartSelect"
+    },
+    {
+        "key": "cmd+k",
+        "command": "multiCommand.Down"
+    },
+    {
+        "key": "shift+cmd+k",
+        "command": "multiCommand.DownSelect"
+    },
+    {
+        "key": "cmd+j",
+        "command": "multiCommand.Left"
+    },
+    {
+        "key": "shift+cmd+j",
+        "command": "multiCommand.LeftSelect"
+    },
+    {
+        "key": "cmd+l",
+        "command": "multiCommand.Right"
+    },
+    {
+        "key": "shift+cmd+l",
+        "command": "multiCommand.RightSelect"
+    },
+    {
+        "key": "cmd+i",
+        "command": "multiCommand.Up"
+    },
+    {
+        "key": "shift+cmd+i",
+        "command": "multiCommand.UpSelect"
+    },
+    {
+        "key": "ctrl+shift+o",
+        "command": "-workbench.action.gotoSymbol"
+    },
+    {
+        "key": "shift+cmd+u",
+        "command": "multiCommand.deleteLeft"
+    },
+    {
+        "key": "shift+cmd+o",
+        "command": "multiCommand.deleteRight"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "-selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+pagedown",
+        "command": "-selectNextPageSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "shift+cmd+space",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "-selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+pageup",
+        "command": "-selectPrevPageSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "cmd+j",
+        "command": "-workbench.action.togglePanel"
+    }
+]

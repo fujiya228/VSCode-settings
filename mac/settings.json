@@ -1,0 +1,108 @@
+{
+    //ファイルをセーブするごとにコードを整えてくれる
+    "editor.formatOnSave": true,
+    //行を書き終えるごとに行のコードを整えてくれる
+    "editor.formatOnType": true,
+    //ペーストしたときにコードを整えてくれる
+    "editor.formatOnPaste": true,
+    //予測をどのときに出すのか
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "C_Cpp.updateChannel": "Insiders",
+    "window.zoomLevel": -1,
+    "explorer.confirmDragAndDrop": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.minimap.enabled": false,
+    "workbench.activityBar.visible": true,
+    "workbench.startupEditor": "none",
+    "workbench.editor.showTabs": true,
+    "[ruby]": {
+        "editor.tabSize": 2
+    },
+    "[html.erb]": {
+        "editor.tabSize": 2
+    },
+    "[vue]": {
+        "editor.tabSize": 2
+    },
+    "[js]": {
+        "editor.tabSize": 2
+    },
+    "[spec.js]": {
+        "editor.tabSize": 2
+    },
+    "[scss]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "all",
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.Down",
+            "sequence": [
+                "cursorDown"
+            ]
+        },
+        {
+            "command": "multiCommand.Up",
+            "sequence": [
+                "cursorUp"
+            ]
+        },
+        {
+            "command": "multiCommand.Left",
+            "sequence": [
+                "cursorLeft"
+            ]
+        },
+        {
+            "command": "multiCommand.Right",
+            "sequence": [
+                "cursorRight"
+            ]
+        },
+        {
+            "command": "multiCommand.DownSelect",
+            "sequence": [
+                "cursorDownSelect"
+            ]
+        },
+        {
+            "command": "multiCommand.UpSelect",
+            "sequence": [
+                "cursorUpSelect"
+            ]
+        },
+        {
+            "command": "multiCommand.LeftSelect",
+            "sequence": [
+                "cursorLeftSelect"
+            ]
+        },
+        {
+            "command": "multiCommand.RightSelect",
+            "sequence": [
+                "cursorRightSelect"
+            ]
+        },
+        {
+            "command": "multiCommand.deleteLeft",
+            "sequence": [
+                "deleteLeft"
+            ]
+        },
+        {
+            "command": "multiCommand.deleteRight",
+            "sequence": [
+                "deleteRight"
+            ]
+        }
+    ]
+}
