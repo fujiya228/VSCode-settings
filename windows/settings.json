@@ -6,16 +6,16 @@
       "label": "cmd"
     },
     {
-      "shell": "C:\\Windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe",
+      "shell": "C:\\WINDOWS\\System32\\wsl.exe",
+      "label": "WSL Bash"
+    },
+    {
+      "shell": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
       "label": "PowerShell"
     },
     {
       "shell": "C:\\Program Files\\Git\\bin\\bash.exe",
       "label": "Git bash"
-    },
-    {
-      "shell": "C:\\WINDOWS\\System32\\wsl.exe",
-      "label": "WSL Bash"
     }
   ],
   //ファイルをセーブするごとにコードを整えてくれる
@@ -64,43 +64,63 @@
   "multiCommand.commands": [
     {
       "command": "multiCommand.Down",
-      "sequence": ["cursorDown"]
+      "sequence": [
+        "cursorDown"
+      ]
     },
     {
       "command": "multiCommand.Up",
-      "sequence": ["cursorUp"]
+      "sequence": [
+        "cursorUp"
+      ]
     },
     {
       "command": "multiCommand.Left",
-      "sequence": ["cursorLeft"]
+      "sequence": [
+        "cursorLeft"
+      ]
     },
     {
       "command": "multiCommand.Right",
-      "sequence": ["cursorRight"]
+      "sequence": [
+        "cursorRight"
+      ]
     },
     {
       "command": "multiCommand.DownSelect",
-      "sequence": ["cursorDownSelect"]
+      "sequence": [
+        "cursorDownSelect"
+      ]
     },
     {
       "command": "multiCommand.UpSelect",
-      "sequence": ["cursorUpSelect"]
+      "sequence": [
+        "cursorUpSelect"
+      ]
     },
     {
       "command": "multiCommand.LeftSelect",
-      "sequence": ["cursorLeftSelect"]
+      "sequence": [
+        "cursorLeftSelect"
+      ]
     },
     {
       "command": "multiCommand.RightSelect",
-      "sequence": ["cursorRightSelect"]
+      "sequence": [
+        "cursorRightSelect"
+      ]
     },
     {
       "command": "multiCommand.deleteLeft",
-      "sequence": ["deleteLeft"]
+      "sequence": [
+        "deleteLeft"
+      ]
     },
     {
       "command": "multiCommand.deleteRight",
-      "sequence": ["deleteRight"]
+      "sequence": [
+        "deleteRight"
+      ]
     }
   ]
 }
