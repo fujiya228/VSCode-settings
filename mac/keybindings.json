@@ -9,7 +9,7 @@
         "command": "workbench.action.nextEditorInGroup"
     },
     {
-        "key": "alt+k",
+        "key": "alt+cmd+k",
         "command": "editor.action.moveLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -19,7 +19,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "alt+i",
+        "key": "alt+cmd+i",
         "command": "editor.action.moveLinesUpAction",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -85,14 +85,6 @@
         "key": "ctrl+shift+v",
         "command": "-workbench.action.terminal.paste",
         "when": "terminalFocus"
-    },
-    {
-        "key": "cmd+[BracketLeft]",
-        "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "ctrl+shift+[BracketLeft]",
-        "command": "-workbench.action.terminal.toggleTerminal"
     },
     {
         "key": "cmd+c",
